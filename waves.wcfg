@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/daniel/LED_32_32_Test/LEDMatrixDriver_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="led_matrix_type_package" />
+            <top_module name="ledmatrixdriver_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/ledmatrixdriver_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[0:2]</obj_property>
+      <obj_property name="ObjectShortName">data[0:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/wen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/sclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/r0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r0</obj_property>
+      <obj_property name="ObjectShortName">r0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/g0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">g0</obj_property>
+      <obj_property name="ObjectShortName">g0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/b0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b0</obj_property>
+      <obj_property name="ObjectShortName">b0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/r1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r1</obj_property>
+      <obj_property name="ObjectShortName">r1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/g1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">g1</obj_property>
+      <obj_property name="ObjectShortName">g1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/b1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b1</obj_property>
+      <obj_property name="ObjectShortName">b1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">oe</obj_property>
+      <obj_property name="ObjectShortName">oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/latch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">latch</obj_property>
+      <obj_property name="ObjectShortName">latch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/addr_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/sclk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk_period</obj_property>
+      <obj_property name="ObjectShortName">sclk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/next_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/shift_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shift_counter[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_counter[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/show_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">show_counter[13:0]</obj_property>
+      <obj_property name="ObjectShortName">show_counter[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/data_r0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_r0[0:31]</obj_property>
+      <obj_property name="ObjectShortName">data_r0[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/data_g0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_g0[0:31]</obj_property>
+      <obj_property name="ObjectShortName">data_g0[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/data_b0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_b0[0:31]</obj_property>
+      <obj_property name="ObjectShortName">data_b0[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/data_r1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_r1[0:31]</obj_property>
+      <obj_property name="ObjectShortName">data_r1[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/data_g1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_g1[0:31]</obj_property>
+      <obj_property name="ObjectShortName">data_g1[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/data_b1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_b1[0:31]</obj_property>
+      <obj_property name="ObjectShortName">data_b1[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ledmatrixdriver_tb/uut/step_line" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step_line</obj_property>
+      <obj_property name="ObjectShortName">step_line</obj_property>
+   </wvobject>
+</wave_config>

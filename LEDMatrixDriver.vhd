@@ -70,10 +70,12 @@ begin
 	--show this line
 	show_line <= '1' when state = SHOW_s else '0';
 	--oe <= '0' when state = SHOW_s else '1';
-	oe <= not show_line;
+	oe <= step_line;
+	
 	
 	--clock when clock is needed (for shifting and latching)
 	sclk <= clk when ((state = SHIFT_s) or (state = LATCH_s)) else '0';
+	--sclk <= clk when (state = SHIFT_s) else '0';
 	
 	r0 <= '1' when (data_r0(to_integer(shift_counter))) > pwm_count else '0';
 	g0 <= '1' when (data_g0(to_integer(shift_counter))) > pwm_count else '0';
@@ -141,7 +143,7 @@ begin
 			when READ_s =>
 				next_state <= SHIFT_s;
 			when SHIFT_s =>
-				if shift_counter = "11111" then
+				if shift_counter = "11110" then
 					next_state <= LATCH_s;
 				else
 					next_state <= SHIFT_s;
